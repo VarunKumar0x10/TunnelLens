@@ -1,0 +1,866 @@
+[
+  {
+    "filename": "class-0-run-00-cfg-0.pcap",
+    "group_id": "class-0-run-00",
+    "split": "train",
+    "label": "real-time-like",
+    "config": "AES-GCM-256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "d3a4e557b6f8e6ea8161455005b24fd276df1ce33c84bc7d8dd71021e47760f5"
+  },
+  {
+    "filename": "class-0-run-00-cfg-1.pcap",
+    "group_id": "class-0-run-00",
+    "split": "train",
+    "label": "real-time-like",
+    "config": "AES-CBC-256-HMAC-SHA256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "902f61afde011e0c5c243308c46ebec4dabf12f9d9ff7af24fa66a0a62413d4b"
+  },
+  {
+    "filename": "class-0-run-01-cfg-0.pcap",
+    "group_id": "class-0-run-01",
+    "split": "train",
+    "label": "real-time-like",
+    "config": "AES-GCM-256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "7bae5bcadfdd768973e399d4b2a2a908403675509e6a1c329fbb64e338a16900"
+  },
+  {
+    "filename": "class-0-run-01-cfg-1.pcap",
+    "group_id": "class-0-run-01",
+    "split": "train",
+    "label": "real-time-like",
+    "config": "AES-CBC-256-HMAC-SHA256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "19754d02b44dd92cdcdde8a2e130160a1a2311370014817ab0f12ce6fe87aec1"
+  },
+  {
+    "filename": "class-0-run-02-cfg-0.pcap",
+    "group_id": "class-0-run-02",
+    "split": "train",
+    "label": "real-time-like",
+    "config": "AES-GCM-256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "334b28e08dbcefa3a99b15dd94e51c2646c325bd456b85b938bee8c0b122e293"
+  },
+  {
+    "filename": "class-0-run-02-cfg-1.pcap",
+    "group_id": "class-0-run-02",
+    "split": "train",
+    "label": "real-time-like",
+    "config": "AES-CBC-256-HMAC-SHA256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "4f193b3c135121eb8b0ec2c3914ca78a454fea83801628ff571ee1c8671e5109"
+  },
+  {
+    "filename": "class-0-run-03-cfg-0.pcap",
+    "group_id": "class-0-run-03",
+    "split": "train",
+    "label": "real-time-like",
+    "config": "AES-GCM-256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "e59f8d65b70baa3f18ff6a2b0d9d9b925d2bc3e689d46774c0f39fbafdf99f10"
+  },
+  {
+    "filename": "class-0-run-03-cfg-1.pcap",
+    "group_id": "class-0-run-03",
+    "split": "train",
+    "label": "real-time-like",
+    "config": "AES-CBC-256-HMAC-SHA256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "d69178e9e67550bbded31a6d4a5dad1f38fc81ad428205b7750bb7da2420b576"
+  },
+  {
+    "filename": "class-0-run-04-cfg-0.pcap",
+    "group_id": "class-0-run-04",
+    "split": "train",
+    "label": "real-time-like",
+    "config": "AES-GCM-256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "95187f93088dc63b56e9bc0a415390e248b584dcb6e76847cd630ae85460b9ae"
+  },
+  {
+    "filename": "class-0-run-04-cfg-1.pcap",
+    "group_id": "class-0-run-04",
+    "split": "train",
+    "label": "real-time-like",
+    "config": "AES-CBC-256-HMAC-SHA256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "caf3c607de910ee3652d3d171aaa04556a8a236c0bb837a9d7ff93df9f3614b4"
+  },
+  {
+    "filename": "class-0-run-05-cfg-0.pcap",
+    "group_id": "class-0-run-05",
+    "split": "train",
+    "label": "real-time-like",
+    "config": "AES-GCM-256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "522ad4975e980d72e26ab3554d6f5c00e148ab2fc3aba5e420446e194e9d36a0"
+  },
+  {
+    "filename": "class-0-run-05-cfg-1.pcap",
+    "group_id": "class-0-run-05",
+    "split": "train",
+    "label": "real-time-like",
+    "config": "AES-CBC-256-HMAC-SHA256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "345c81d7509c1f8994b1253a865dc1403be91584c9753fdf53cad8e09a0b3d80"
+  },
+  {
+    "filename": "class-0-run-06-cfg-0.pcap",
+    "group_id": "class-0-run-06",
+    "split": "train",
+    "label": "real-time-like",
+    "config": "AES-GCM-256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "7561cd6d29560957ef9e99f4283d0bfef09ad0694c4bfeb3852ef7eaeb3848a2"
+  },
+  {
+    "filename": "class-0-run-06-cfg-1.pcap",
+    "group_id": "class-0-run-06",
+    "split": "train",
+    "label": "real-time-like",
+    "config": "AES-CBC-256-HMAC-SHA256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "c500a6c088eae3b2b3aa6d9dcc30c10ff4da2f563db2c694d767c71c1c852453"
+  },
+  {
+    "filename": "class-0-run-07-cfg-0.pcap",
+    "group_id": "class-0-run-07",
+    "split": "train",
+    "label": "real-time-like",
+    "config": "AES-GCM-256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "9a882530093cc77a3be67132497f3b4c05ca7cc61c957d75f4e18a97e8820e8b"
+  },
+  {
+    "filename": "class-0-run-07-cfg-1.pcap",
+    "group_id": "class-0-run-07",
+    "split": "train",
+    "label": "real-time-like",
+    "config": "AES-CBC-256-HMAC-SHA256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "78d1390335fc21b82d203965bbb783e2cac0faede987f8dcebe01791e48016f4"
+  },
+  {
+    "filename": "class-0-run-08-cfg-0.pcap",
+    "group_id": "class-0-run-08",
+    "split": "train",
+    "label": "real-time-like",
+    "config": "AES-GCM-256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "676a3256bdfa00cabbeb7f92a4148654a1b172803c03e4298799b13b26e9e291"
+  },
+  {
+    "filename": "class-0-run-08-cfg-1.pcap",
+    "group_id": "class-0-run-08",
+    "split": "train",
+    "label": "real-time-like",
+    "config": "AES-CBC-256-HMAC-SHA256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "5c18bcd02bade6fa7c387e13ef9e4300de517bbffd58c8d038c90b41f63a11fc"
+  },
+  {
+    "filename": "class-0-run-09-cfg-0.pcap",
+    "group_id": "class-0-run-09",
+    "split": "train",
+    "label": "real-time-like",
+    "config": "AES-GCM-256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "61c2b458e47e875b5bfae63d5ab78e25f1e5e2d33d4dff71381edeeeda33fb84"
+  },
+  {
+    "filename": "class-0-run-09-cfg-1.pcap",
+    "group_id": "class-0-run-09",
+    "split": "train",
+    "label": "real-time-like",
+    "config": "AES-CBC-256-HMAC-SHA256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "fe0eb010c6967913c4e8248da494c2e25f7da4a07700a27efa00470aec6acdf6"
+  },
+  {
+    "filename": "class-0-run-10-cfg-0.pcap",
+    "group_id": "class-0-run-10",
+    "split": "validation",
+    "label": "real-time-like",
+    "config": "AES-GCM-256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "2b07018fed555f9697240234ad1381b52398c2c78e7c0adc775dad0bb5136705"
+  },
+  {
+    "filename": "class-0-run-10-cfg-1.pcap",
+    "group_id": "class-0-run-10",
+    "split": "validation",
+    "label": "real-time-like",
+    "config": "AES-CBC-256-HMAC-SHA256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "e3a795d4d7d9617c79f4f9ea2d3236911b2955371d8a2694e31f6fdecd598efb"
+  },
+  {
+    "filename": "class-0-run-11-cfg-0.pcap",
+    "group_id": "class-0-run-11",
+    "split": "validation",
+    "label": "real-time-like",
+    "config": "AES-GCM-256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "f5df2f4452602c9407a4c04397c2732f5744cfc433a3d32e40e7a0a9aa479051"
+  },
+  {
+    "filename": "class-0-run-11-cfg-1.pcap",
+    "group_id": "class-0-run-11",
+    "split": "validation",
+    "label": "real-time-like",
+    "config": "AES-CBC-256-HMAC-SHA256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "7a55c5a32ff27ee85657cb6324222e6a7c3095300a14652455f9e174b430e276"
+  },
+  {
+    "filename": "class-0-run-12-cfg-0.pcap",
+    "group_id": "class-0-run-12",
+    "split": "validation",
+    "label": "real-time-like",
+    "config": "AES-GCM-256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "3574d5016b3eb8b6daeb84ff5bec93e9bc5af4d2460ec024e9baf833d3cf01b6"
+  },
+  {
+    "filename": "class-0-run-12-cfg-1.pcap",
+    "group_id": "class-0-run-12",
+    "split": "validation",
+    "label": "real-time-like",
+    "config": "AES-CBC-256-HMAC-SHA256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "c02fd31a501f7b445eb76dc1aae885c1227dbf5aa70613a02de4f93088d1758f"
+  },
+  {
+    "filename": "class-0-run-13-cfg-0.pcap",
+    "group_id": "class-0-run-13",
+    "split": "test",
+    "label": "real-time-like",
+    "config": "AES-GCM-256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "7cf032134b0ca3b4780b2ecad1e2dbb33cfc83f657da9587c2771bbc40253b45"
+  },
+  {
+    "filename": "class-0-run-13-cfg-1.pcap",
+    "group_id": "class-0-run-13",
+    "split": "test",
+    "label": "real-time-like",
+    "config": "AES-CBC-256-HMAC-SHA256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "e01f317c5e043e1c6d502015dcd15d5a5eb13a431872bbb3af059bd86f9d2701"
+  },
+  {
+    "filename": "class-0-run-14-cfg-0.pcap",
+    "group_id": "class-0-run-14",
+    "split": "test",
+    "label": "real-time-like",
+    "config": "AES-GCM-256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "8a5c16309488e2473ede45a62877d766f2ea04771e9e9dd8fbed041e101da762"
+  },
+  {
+    "filename": "class-0-run-14-cfg-1.pcap",
+    "group_id": "class-0-run-14",
+    "split": "test",
+    "label": "real-time-like",
+    "config": "AES-CBC-256-HMAC-SHA256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "4a19ee80424293fd3948540c1310db5ad36759fa7bd4ee32cbc758ec4948a4e1"
+  },
+  {
+    "filename": "class-0-run-15-cfg-0.pcap",
+    "group_id": "class-0-run-15",
+    "split": "test",
+    "label": "real-time-like",
+    "config": "AES-GCM-256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "67ef3ebf6f898a1e29ecfc5219f4d846b87b94a706dfbbe740c21fda02ada95e"
+  },
+  {
+    "filename": "class-0-run-15-cfg-1.pcap",
+    "group_id": "class-0-run-15",
+    "split": "test",
+    "label": "real-time-like",
+    "config": "AES-CBC-256-HMAC-SHA256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "c54aa5c2b415c07b10eaa8956bc31ee773be8b689e24cec060e6a9433ab8150f"
+  },
+  {
+    "filename": "class-1-run-00-cfg-0.pcap",
+    "group_id": "class-1-run-00",
+    "split": "train",
+    "label": "bursty-streaming-like",
+    "config": "AES-GCM-256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "6a4c1223f143c909954ee398b4063f7618e8bb02ed91a100c5327707e7ad5d1e"
+  },
+  {
+    "filename": "class-1-run-00-cfg-1.pcap",
+    "group_id": "class-1-run-00",
+    "split": "train",
+    "label": "bursty-streaming-like",
+    "config": "AES-CBC-256-HMAC-SHA256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "742691840887af8e040628e7db847aa54db6ad8e9f9e6c4c60047858293ffd54"
+  },
+  {
+    "filename": "class-1-run-01-cfg-0.pcap",
+    "group_id": "class-1-run-01",
+    "split": "train",
+    "label": "bursty-streaming-like",
+    "config": "AES-GCM-256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "80a54dee8b40ab1281f5dc2512078b0a7a8dd3bc2a2432ff7a30bd5de0a42d91"
+  },
+  {
+    "filename": "class-1-run-01-cfg-1.pcap",
+    "group_id": "class-1-run-01",
+    "split": "train",
+    "label": "bursty-streaming-like",
+    "config": "AES-CBC-256-HMAC-SHA256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "d5165c2312fa215fc5a157272377d855850636733fed253627ae7667c0c3a894"
+  },
+  {
+    "filename": "class-1-run-02-cfg-0.pcap",
+    "group_id": "class-1-run-02",
+    "split": "train",
+    "label": "bursty-streaming-like",
+    "config": "AES-GCM-256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "f5f4ee7fb8b00e8b2f7a255e746db0a93d579c37b3e9323e7c7c01acc4a53c94"
+  },
+  {
+    "filename": "class-1-run-02-cfg-1.pcap",
+    "group_id": "class-1-run-02",
+    "split": "train",
+    "label": "bursty-streaming-like",
+    "config": "AES-CBC-256-HMAC-SHA256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "c25ce9de3194d5388ae83cbb427dac0a39972b62813ca475d3e2403587954d21"
+  },
+  {
+    "filename": "class-1-run-03-cfg-0.pcap",
+    "group_id": "class-1-run-03",
+    "split": "train",
+    "label": "bursty-streaming-like",
+    "config": "AES-GCM-256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "5c0444f7f3acfbc9332f2ccbec73b48a29a6cfbdb7d6b77c7ec7644c95dc3132"
+  },
+  {
+    "filename": "class-1-run-03-cfg-1.pcap",
+    "group_id": "class-1-run-03",
+    "split": "train",
+    "label": "bursty-streaming-like",
+    "config": "AES-CBC-256-HMAC-SHA256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "a58b25b06cdd12b7be3d744be4d7dcdae8525e9eda360e5845df8f9b98da3549"
+  },
+  {
+    "filename": "class-1-run-04-cfg-0.pcap",
+    "group_id": "class-1-run-04",
+    "split": "train",
+    "label": "bursty-streaming-like",
+    "config": "AES-GCM-256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "a04e5152face2ebabbf4c82c03a26a5cacffd69d8fa600c55e9b6b5ed562a511"
+  },
+  {
+    "filename": "class-1-run-04-cfg-1.pcap",
+    "group_id": "class-1-run-04",
+    "split": "train",
+    "label": "bursty-streaming-like",
+    "config": "AES-CBC-256-HMAC-SHA256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "4f46fb1ba0cd466f93dc106738d517b2dde3a7948a48f102504fd44a1a29ad49"
+  },
+  {
+    "filename": "class-1-run-05-cfg-0.pcap",
+    "group_id": "class-1-run-05",
+    "split": "train",
+    "label": "bursty-streaming-like",
+    "config": "AES-GCM-256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "15fbceff312d9b409e741c2a638bf470692c5b59f13b4304582e2ebcb57d55ac"
+  },
+  {
+    "filename": "class-1-run-05-cfg-1.pcap",
+    "group_id": "class-1-run-05",
+    "split": "train",
+    "label": "bursty-streaming-like",
+    "config": "AES-CBC-256-HMAC-SHA256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "6ced62deb85fdf2c0eb8a9651087237ff5c06abc9ba19702d27900ddc3164a92"
+  },
+  {
+    "filename": "class-1-run-06-cfg-0.pcap",
+    "group_id": "class-1-run-06",
+    "split": "train",
+    "label": "bursty-streaming-like",
+    "config": "AES-GCM-256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "139311a5ae6c3c5a7839a24d422ea7d1660f20f76412f96ae0070d7560fdc1eb"
+  },
+  {
+    "filename": "class-1-run-06-cfg-1.pcap",
+    "group_id": "class-1-run-06",
+    "split": "train",
+    "label": "bursty-streaming-like",
+    "config": "AES-CBC-256-HMAC-SHA256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "52cba125fe9bec383e5a4568700f0f64c3adffa88b08f511dcb21a4e653d3a14"
+  },
+  {
+    "filename": "class-1-run-07-cfg-0.pcap",
+    "group_id": "class-1-run-07",
+    "split": "train",
+    "label": "bursty-streaming-like",
+    "config": "AES-GCM-256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "2e94d829c37a62ab6a2b8f5ec3eab258beb30f9c4dae1b1ae2de89c17b29c87d"
+  },
+  {
+    "filename": "class-1-run-07-cfg-1.pcap",
+    "group_id": "class-1-run-07",
+    "split": "train",
+    "label": "bursty-streaming-like",
+    "config": "AES-CBC-256-HMAC-SHA256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "9ee5fa0a061e3e692bff1cf39bee3e276797a6e38f8db6efd8728bfdc4970041"
+  },
+  {
+    "filename": "class-1-run-08-cfg-0.pcap",
+    "group_id": "class-1-run-08",
+    "split": "train",
+    "label": "bursty-streaming-like",
+    "config": "AES-GCM-256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "90f19f344f8366f1cebf0ec4ba35b5cfd1e1500a7348c4dd194d575dda517f1a"
+  },
+  {
+    "filename": "class-1-run-08-cfg-1.pcap",
+    "group_id": "class-1-run-08",
+    "split": "train",
+    "label": "bursty-streaming-like",
+    "config": "AES-CBC-256-HMAC-SHA256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "d950f4d0879b508e09b97ad1755e80af4f0b7345d2f48b21304c7fcf72583a50"
+  },
+  {
+    "filename": "class-1-run-09-cfg-0.pcap",
+    "group_id": "class-1-run-09",
+    "split": "train",
+    "label": "bursty-streaming-like",
+    "config": "AES-GCM-256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "e28cd24c8a938b1015a94cb6a3b8504e155c7fbb0a610dea9e46eb39afdc4932"
+  },
+  {
+    "filename": "class-1-run-09-cfg-1.pcap",
+    "group_id": "class-1-run-09",
+    "split": "train",
+    "label": "bursty-streaming-like",
+    "config": "AES-CBC-256-HMAC-SHA256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "1011f2c8ed5d0768a80aad342efe04165c53f1b23d5eb72bb9ff1efaaaeec16a"
+  },
+  {
+    "filename": "class-1-run-10-cfg-0.pcap",
+    "group_id": "class-1-run-10",
+    "split": "validation",
+    "label": "bursty-streaming-like",
+    "config": "AES-GCM-256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "87e67fb328134c7a0e600689012652ef07f8640cd819c8de5105f45099fb6d86"
+  },
+  {
+    "filename": "class-1-run-10-cfg-1.pcap",
+    "group_id": "class-1-run-10",
+    "split": "validation",
+    "label": "bursty-streaming-like",
+    "config": "AES-CBC-256-HMAC-SHA256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "3ff389355fe727b2e8c3122610a96a91fe36815744a2ff9bfcfa17671a4155b5"
+  },
+  {
+    "filename": "class-1-run-11-cfg-0.pcap",
+    "group_id": "class-1-run-11",
+    "split": "validation",
+    "label": "bursty-streaming-like",
+    "config": "AES-GCM-256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "830ac82a029c167a953a1c9d9abe44c8b564a95d9e56a172f75f6b0dca9bd7de"
+  },
+  {
+    "filename": "class-1-run-11-cfg-1.pcap",
+    "group_id": "class-1-run-11",
+    "split": "validation",
+    "label": "bursty-streaming-like",
+    "config": "AES-CBC-256-HMAC-SHA256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "34fa5a90cf827dd8dbe2cb9d18598c66e80b2d6494d69b417c05829c924804cc"
+  },
+  {
+    "filename": "class-1-run-12-cfg-0.pcap",
+    "group_id": "class-1-run-12",
+    "split": "validation",
+    "label": "bursty-streaming-like",
+    "config": "AES-GCM-256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "8baf38c5aa4c9d0936399872ae02032a94eeb0eae7f4e3ae7c6d6bf2d5ea12e8"
+  },
+  {
+    "filename": "class-1-run-12-cfg-1.pcap",
+    "group_id": "class-1-run-12",
+    "split": "validation",
+    "label": "bursty-streaming-like",
+    "config": "AES-CBC-256-HMAC-SHA256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "a55f911c75811ee5bf54408de5796dce17abcc58aab9d54fb1b25b40ba5881c6"
+  },
+  {
+    "filename": "class-1-run-13-cfg-0.pcap",
+    "group_id": "class-1-run-13",
+    "split": "test",
+    "label": "bursty-streaming-like",
+    "config": "AES-GCM-256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "d353aa325995c53559f97feceb9c472bf87f20c12619f5037d0c2496605e468a"
+  },
+  {
+    "filename": "class-1-run-13-cfg-1.pcap",
+    "group_id": "class-1-run-13",
+    "split": "test",
+    "label": "bursty-streaming-like",
+    "config": "AES-CBC-256-HMAC-SHA256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "47d622473b3fc7d3c16927adda8c86315a319d3a163f1890ba6a09c5e5783aca"
+  },
+  {
+    "filename": "class-1-run-14-cfg-0.pcap",
+    "group_id": "class-1-run-14",
+    "split": "test",
+    "label": "bursty-streaming-like",
+    "config": "AES-GCM-256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "1d1d006a7742ebe707d8de91e5127fd193d95d40282110890ce2bc16e490cef5"
+  },
+  {
+    "filename": "class-1-run-14-cfg-1.pcap",
+    "group_id": "class-1-run-14",
+    "split": "test",
+    "label": "bursty-streaming-like",
+    "config": "AES-CBC-256-HMAC-SHA256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "0d619cddbcad744e46064514c6b70f78c688240755807c54b9c90cda766b7892"
+  },
+  {
+    "filename": "class-1-run-15-cfg-0.pcap",
+    "group_id": "class-1-run-15",
+    "split": "test",
+    "label": "bursty-streaming-like",
+    "config": "AES-GCM-256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "e4df810b24d579d9bd30990730e4f8cd186376b0fff21aa8aa6fb846710ce5c2"
+  },
+  {
+    "filename": "class-1-run-15-cfg-1.pcap",
+    "group_id": "class-1-run-15",
+    "split": "test",
+    "label": "bursty-streaming-like",
+    "config": "AES-CBC-256-HMAC-SHA256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "8b60372f8de546f6b9db0257bae7803144ccb45100bf117e2d1ca8194bf6f507"
+  },
+  {
+    "filename": "class-2-run-00-cfg-0.pcap",
+    "group_id": "class-2-run-00",
+    "split": "train",
+    "label": "bulk-transfer-like",
+    "config": "AES-GCM-256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "8385ac39af9f6d43a7b7ffce2ecf89fb41f8eff34c4e4fd597afcd255f172aa5"
+  },
+  {
+    "filename": "class-2-run-00-cfg-1.pcap",
+    "group_id": "class-2-run-00",
+    "split": "train",
+    "label": "bulk-transfer-like",
+    "config": "AES-CBC-256-HMAC-SHA256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "54cc7a0d58175d40f75c6d16660d07921c5803e65bd720a69495664b6d03c13b"
+  },
+  {
+    "filename": "class-2-run-01-cfg-0.pcap",
+    "group_id": "class-2-run-01",
+    "split": "train",
+    "label": "bulk-transfer-like",
+    "config": "AES-GCM-256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "dcdec39a556d9f5efbad14c827ad5c65c340667f1d52f664489acbfe0f58e454"
+  },
+  {
+    "filename": "class-2-run-01-cfg-1.pcap",
+    "group_id": "class-2-run-01",
+    "split": "train",
+    "label": "bulk-transfer-like",
+    "config": "AES-CBC-256-HMAC-SHA256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "e2c9baaeb6b70f74990629a88c5644f0ce53e7ea5e5fb793f9714dba940d97af"
+  },
+  {
+    "filename": "class-2-run-02-cfg-0.pcap",
+    "group_id": "class-2-run-02",
+    "split": "train",
+    "label": "bulk-transfer-like",
+    "config": "AES-GCM-256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "9f728e9ae4a1c64f02255447b4016c0609206a56fcdd3616648ce0e995ab83c9"
+  },
+  {
+    "filename": "class-2-run-02-cfg-1.pcap",
+    "group_id": "class-2-run-02",
+    "split": "train",
+    "label": "bulk-transfer-like",
+    "config": "AES-CBC-256-HMAC-SHA256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "3a7ba67f17959eddd5b3875e3327f9914bc5ab7397a00a3f5628b602e43883e7"
+  },
+  {
+    "filename": "class-2-run-03-cfg-0.pcap",
+    "group_id": "class-2-run-03",
+    "split": "train",
+    "label": "bulk-transfer-like",
+    "config": "AES-GCM-256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "a3f88aa032b19255bb04c52e9df76d9dcae4ecd4d677d02eb222c7b19a1452db"
+  },
+  {
+    "filename": "class-2-run-03-cfg-1.pcap",
+    "group_id": "class-2-run-03",
+    "split": "train",
+    "label": "bulk-transfer-like",
+    "config": "AES-CBC-256-HMAC-SHA256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "a72d02a993f207c3260a00a19bd4a740aab23629a287351fc27493d5dcfe693f"
+  },
+  {
+    "filename": "class-2-run-04-cfg-0.pcap",
+    "group_id": "class-2-run-04",
+    "split": "train",
+    "label": "bulk-transfer-like",
+    "config": "AES-GCM-256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "57e586c434f26fca74489505898efb798a2a22a64ae0bcbd68c3d10e35830dac"
+  },
+  {
+    "filename": "class-2-run-04-cfg-1.pcap",
+    "group_id": "class-2-run-04",
+    "split": "train",
+    "label": "bulk-transfer-like",
+    "config": "AES-CBC-256-HMAC-SHA256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "46a980016143f31b9b7ac9df593def171d53599dcfad367d741381ba79badceb"
+  },
+  {
+    "filename": "class-2-run-05-cfg-0.pcap",
+    "group_id": "class-2-run-05",
+    "split": "train",
+    "label": "bulk-transfer-like",
+    "config": "AES-GCM-256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "8e7a6ee7dcf1a6699192f40f456e0c165ffd7837282c568005f8d5d4e6c70879"
+  },
+  {
+    "filename": "class-2-run-05-cfg-1.pcap",
+    "group_id": "class-2-run-05",
+    "split": "train",
+    "label": "bulk-transfer-like",
+    "config": "AES-CBC-256-HMAC-SHA256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "e38643d7a0df7cba921f2a5945c4de0363ab16ab9781184252bd406e00ec15ba"
+  },
+  {
+    "filename": "class-2-run-06-cfg-0.pcap",
+    "group_id": "class-2-run-06",
+    "split": "train",
+    "label": "bulk-transfer-like",
+    "config": "AES-GCM-256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "c2d8b890747be7d64b55b8b261a719da8629ced4600b5596216e26336681f51c"
+  },
+  {
+    "filename": "class-2-run-06-cfg-1.pcap",
+    "group_id": "class-2-run-06",
+    "split": "train",
+    "label": "bulk-transfer-like",
+    "config": "AES-CBC-256-HMAC-SHA256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "6aaf0f3201daeac7afacbb3cf704ebd331f166ffc863c2ae3f1704d9d1b3461c"
+  },
+  {
+    "filename": "class-2-run-07-cfg-0.pcap",
+    "group_id": "class-2-run-07",
+    "split": "train",
+    "label": "bulk-transfer-like",
+    "config": "AES-GCM-256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "ab625c40df9909245ab06893a469d219c1c476cf4da7102c6b921aa064d49052"
+  },
+  {
+    "filename": "class-2-run-07-cfg-1.pcap",
+    "group_id": "class-2-run-07",
+    "split": "train",
+    "label": "bulk-transfer-like",
+    "config": "AES-CBC-256-HMAC-SHA256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "f9e9621be7c0772392a4b7e5df76bb7a74f268731360621437bda470610fd58b"
+  },
+  {
+    "filename": "class-2-run-08-cfg-0.pcap",
+    "group_id": "class-2-run-08",
+    "split": "train",
+    "label": "bulk-transfer-like",
+    "config": "AES-GCM-256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "7af445d8bca374693cfc5a0a616899d6bbeca2a42425bf7d60180f96dc1bc3d6"
+  },
+  {
+    "filename": "class-2-run-08-cfg-1.pcap",
+    "group_id": "class-2-run-08",
+    "split": "train",
+    "label": "bulk-transfer-like",
+    "config": "AES-CBC-256-HMAC-SHA256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "58ab69be387adb182b63f3e60af86d5debae66db4bc94e51ef46635247984190"
+  },
+  {
+    "filename": "class-2-run-09-cfg-0.pcap",
+    "group_id": "class-2-run-09",
+    "split": "train",
+    "label": "bulk-transfer-like",
+    "config": "AES-GCM-256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "8b5cd50f401bf742dec95e67ae3138ce24d59ee76efa235c8eac8a5f1ee16d13"
+  },
+  {
+    "filename": "class-2-run-09-cfg-1.pcap",
+    "group_id": "class-2-run-09",
+    "split": "train",
+    "label": "bulk-transfer-like",
+    "config": "AES-CBC-256-HMAC-SHA256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "aa3be8c6bf022434eff4cdc331e886fb5b0eb1185b2a4b2daba4522b002f90ca"
+  },
+  {
+    "filename": "class-2-run-10-cfg-0.pcap",
+    "group_id": "class-2-run-10",
+    "split": "validation",
+    "label": "bulk-transfer-like",
+    "config": "AES-GCM-256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "eff62f511300e1fa1f34f4a2ec58e19fc320c613ef488022be0ce128dea2f01c"
+  },
+  {
+    "filename": "class-2-run-10-cfg-1.pcap",
+    "group_id": "class-2-run-10",
+    "split": "validation",
+    "label": "bulk-transfer-like",
+    "config": "AES-CBC-256-HMAC-SHA256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "5e58c615480867fb6c930a183eddec7b69f1e5ceb8f811ce3fbabf9bd48b4b14"
+  },
+  {
+    "filename": "class-2-run-11-cfg-0.pcap",
+    "group_id": "class-2-run-11",
+    "split": "validation",
+    "label": "bulk-transfer-like",
+    "config": "AES-GCM-256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "19818d8804a1c492677e1c68dbe4d3720c81ca750e4746b7532506d07bc1ca3e"
+  },
+  {
+    "filename": "class-2-run-11-cfg-1.pcap",
+    "group_id": "class-2-run-11",
+    "split": "validation",
+    "label": "bulk-transfer-like",
+    "config": "AES-CBC-256-HMAC-SHA256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "ef3bf32b42d269a93107870ed1535f7e33648721216f8e90f6f9793d20b521e2"
+  },
+  {
+    "filename": "class-2-run-12-cfg-0.pcap",
+    "group_id": "class-2-run-12",
+    "split": "validation",
+    "label": "bulk-transfer-like",
+    "config": "AES-GCM-256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "64898f4d054e00975d09f2655b237e7e4d0b9a913af557b5da5e6753d73397c5"
+  },
+  {
+    "filename": "class-2-run-12-cfg-1.pcap",
+    "group_id": "class-2-run-12",
+    "split": "validation",
+    "label": "bulk-transfer-like",
+    "config": "AES-CBC-256-HMAC-SHA256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "5a5eebc3c83b3314b4091576bb71325bdf762d1bdd2f17d7bc54237159243e46"
+  },
+  {
+    "filename": "class-2-run-13-cfg-0.pcap",
+    "group_id": "class-2-run-13",
+    "split": "test",
+    "label": "bulk-transfer-like",
+    "config": "AES-GCM-256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "b075d754c5048353d048a7b0b20b8a1f96f095606c68219060ec30ec3da4924a"
+  },
+  {
+    "filename": "class-2-run-13-cfg-1.pcap",
+    "group_id": "class-2-run-13",
+    "split": "test",
+    "label": "bulk-transfer-like",
+    "config": "AES-CBC-256-HMAC-SHA256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "a506a729a8dfb9633b76334588e565606b052ca13ab2a75b88c38f951536bed1"
+  },
+  {
+    "filename": "class-2-run-14-cfg-0.pcap",
+    "group_id": "class-2-run-14",
+    "split": "test",
+    "label": "bulk-transfer-like",
+    "config": "AES-GCM-256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "4e4b4ffb995513e9b40f35d047737c4513b6eb31765190a28778fdb49f0b07c4"
+  },
+  {
+    "filename": "class-2-run-14-cfg-1.pcap",
+    "group_id": "class-2-run-14",
+    "split": "test",
+    "label": "bulk-transfer-like",
+    "config": "AES-CBC-256-HMAC-SHA256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "6a73f02adf768a7e57f78d1dcbfcee7779c3bedee1a24a3ba6551b45a93d27ce"
+  },
+  {
+    "filename": "class-2-run-15-cfg-0.pcap",
+    "group_id": "class-2-run-15",
+    "split": "test",
+    "label": "bulk-transfer-like",
+    "config": "AES-GCM-256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "710740ca4180542a053148694b57dd54ae042d460e7f16813464fd982221ed34"
+  },
+  {
+    "filename": "class-2-run-15-cfg-1.pcap",
+    "group_id": "class-2-run-15",
+    "split": "test",
+    "label": "bulk-transfer-like",
+    "config": "AES-CBC-256-HMAC-SHA256",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "fc9c4c4104e6fa17fbb93f54e0a39634a90ed7a3fbc802a4b2901ffd4c2421f6"
+  }
+]

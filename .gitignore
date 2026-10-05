@@ -1,8 +1,29 @@
 .venv/
+venv/
+env/
 .tools/
 .uv-cache/
+
 __pycache__/
+*.py[cod]
 .pytest_cache/
-data/
+.ruff_cache/
+.mypy_cache/
+.tox/
+.coverage
+htmlcov/
+
+# Local analysis output may contain captured endpoint metadata.
+data/analyses/
+data/uploads/
+
+# Temporary browser checks, generated presentations, and local PDFs.
 tmp/
-*.pyc
+
+# Local secrets and machine-specific files.
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+*.log
