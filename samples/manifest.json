@@ -1,0 +1,101 @@
+[
+  {
+    "id": "modern",
+    "title": "Modern IKE suite",
+    "description": "AES-GCM-256 \u00b7 DH group 14",
+    "filename": "synthetic-modern.pcap",
+    "source_kind": "synthetic_fixture",
+    "sha256": "dc46bc29865f3c9666e2a014bd05dce5ad348ef1c7389e7a9b92489691b8ff15",
+    "provenance": "Generated locally by tools/generate_samples.py; public documentation address ranges.",
+    "limitations": "Protocol-structured synthetic fixture, not a real VPN or a validated encrypted workload.",
+    "expected": {
+      "ike_version": "IKEv2",
+      "selected_ike_cipher": "AES-GCM-16-256",
+      "esp_streams": 2,
+      "esp_packets": 64,
+      "child_sa_cipher": null
+    }
+  },
+  {
+    "id": "legacy",
+    "title": "Legacy IKE suite",
+    "description": "3DES \u00b7 SHA-1 \u00b7 NAT-T",
+    "filename": "synthetic-legacy.pcap",
+    "source_kind": "synthetic_fixture",
+    "sha256": "2a0607920772982719a97acd42aee35ad0ac724793c72d66c1cc78adc4d8a9c9",
+    "provenance": "Generated locally by tools/generate_samples.py; public documentation address ranges.",
+    "limitations": "Protocol-structured synthetic fixture, not a real VPN or a validated encrypted workload.",
+    "expected": {
+      "ike_version": "IKEv2",
+      "selected_ike_cipher": "3DES",
+      "esp_streams": 2,
+      "esp_packets": 64,
+      "child_sa_cipher": null
+    }
+  },
+  {
+    "id": "esp-only",
+    "title": "ESP without handshake",
+    "description": "Opaque traffic \u00b7 explicit unknowns",
+    "filename": "synthetic-esp-only.pcap",
+    "source_kind": "synthetic_fixture",
+    "sha256": "43cc201a8bde438d9485612acddb55872a9b0776ab266b3210195d746e325c20",
+    "provenance": "Generated locally by tools/generate_samples.py; public documentation address ranges.",
+    "limitations": "Protocol-structured synthetic fixture, not a real VPN or a validated encrypted workload.",
+    "expected": {
+      "ike_version": null,
+      "selected_ike_cipher": null,
+      "esp_streams": 2,
+      "esp_packets": 64,
+      "child_sa_cipher": null
+    }
+  },
+  {
+    "id": "real-time-like",
+    "title": "Voice-like pattern",
+    "description": "Regular small packets",
+    "filename": "generated-real-time-like.pcap",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "9fed0061b5d3c91aba9b7c1067ff26a2a3f3fc6e966ee620232403b0bbae5b0b",
+    "provenance": "Synthetic schedule/payloads encrypted as ESP with Scapy; local demo-only benchmark.",
+    "ground_truth": "real-time-like",
+    "cipher_ground_truth": "AES-GCM-256",
+    "limitations": "Generated workload signatures; not real apps or a negotiated VPN. Ground truth is not passed to inference."
+  },
+  {
+    "id": "bursty-streaming-like",
+    "title": "Streaming-like pattern",
+    "description": "Large bursts and idle periods",
+    "filename": "generated-bursty-streaming-like.pcap",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "8f56dbeb0aa11aa103d6e8af602af8fb8980e9dbca79e5f5579570bda29d7952",
+    "provenance": "Synthetic schedule/payloads encrypted as ESP with Scapy; local demo-only benchmark.",
+    "ground_truth": "bursty-streaming-like",
+    "cipher_ground_truth": "AES-CBC-256-HMAC-SHA256",
+    "limitations": "Generated workload signatures; not real apps or a negotiated VPN. Ground truth is not passed to inference."
+  },
+  {
+    "id": "bulk-transfer-like",
+    "title": "Bulk-transfer pattern",
+    "description": "Sustained large packets",
+    "filename": "generated-bulk-transfer-like.pcap",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "53aef6b49fa6dba5fc24c9124de64c610fc2fafd2b75dec7a08f9ac09b71aefe",
+    "provenance": "Synthetic schedule/payloads encrypted as ESP with Scapy; local demo-only benchmark.",
+    "ground_truth": "bulk-transfer-like",
+    "cipher_ground_truth": "AES-GCM-256",
+    "limitations": "Generated workload signatures; not real apps or a negotiated VPN. Ground truth is not passed to inference."
+  },
+  {
+    "id": "out-of-envelope",
+    "title": "Abstention challenge",
+    "description": "Oversized padded traffic",
+    "filename": "generated-out-of-envelope.pcap",
+    "source_kind": "generated_esp_benchmark",
+    "sha256": "5d00cd03fc77cfd3d6a9a1fcf86ae1b8161c7deb9cb48405046fb4e493b01ceb",
+    "provenance": "Synthetic schedule/payloads encrypted as ESP with Scapy; local demo-only benchmark.",
+    "ground_truth": "out-of-envelope",
+    "cipher_ground_truth": "AES-CBC-256-HMAC-SHA256",
+    "limitations": "Generated workload signatures; not real apps or a negotiated VPN. Ground truth is not passed to inference."
+  }
+]

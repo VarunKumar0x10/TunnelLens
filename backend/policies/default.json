@@ -1,0 +1,21 @@
+{
+  "version": "tunnellens-baseline-1.0",
+  "source": "https://docs.strongswan.org/docs/latest/howtos/securityRecommendations.html",
+  "protocol_source": "https://www.rfc-editor.org/rfc/rfc7296.html",
+  "esp_source": "https://www.rfc-editor.org/rfc/rfc4303.html",
+  "registry_source": "https://www.iana.org/assignments/ikev2-parameters",
+  "weights": {"Critical": 40, "High": 25, "Medium": 15, "Low": 5},
+  "encryption": {"weak": [1,2,3,4,5,6,7,8,9,11], "accepted": [12,13,14,15,16,18,19,20,28], "severity": "High", "remediation": "Use a supported AES-GCM or AES-CBC suite with appropriate integrity and key length; prefer a modern interoperable suite."},
+  "prf": {"weak": [1,2], "accepted": [4,5,6,7,8], "severity": "Medium", "remediation": "Select a modern PRF such as PRF-HMAC-SHA2-256 or stronger."},
+  "integrity": {"weak": [1,2], "accepted": [5,12,13,14], "severity": "Medium", "remediation": "Use SHA-2-based integrity, or a supported AEAD suite. HMAC-SHA1 is treated as legacy by this baseline."},
+  "dh": {"weak": [0,1,2,5,22,23,24,25], "accepted": [14,15,16,17,18,19,20,21,31,32], "severity": "High", "remediation": "Use an appropriate stronger group, such as ECP-256/384 or MODP-3072+, matched to the intended security policy."},
+  "hidden_checks": [
+    {"id": "ESP-CIPHER", "name": "ESP encryption", "scope": "child_sa"},
+    {"id": "ESP-INTEGRITY", "name": "ESP integrity", "scope": "child_sa"},
+    {"id": "MODE", "name": "Tunnel/transport mode", "scope": "child_sa"},
+    {"id": "AUTH", "name": "Peer authentication", "scope": "ike_sa"},
+    {"id": "PFS", "name": "Child-SA PFS policy", "scope": "child_sa"},
+    {"id": "LIFETIME", "name": "Key lifetime", "scope": "child_sa"},
+    {"id": "REPLAY", "name": "Anti-replay enforcement", "scope": "esp_stream"}
+  ]
+}

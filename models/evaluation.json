@@ -1,0 +1,191 @@
+{
+  "domain": "Synthetic workload signatures with real ESP encryption and simulated timestamps",
+  "real_capture_validation": false,
+  "accuracy": 1.0,
+  "macro_f1": 1.0,
+  "confusion_matrix": [
+    [
+      12,
+      0,
+      0
+    ],
+    [
+      0,
+      12,
+      0
+    ],
+    [
+      0,
+      0,
+      12
+    ]
+  ],
+  "classes": [
+    "bulk-transfer-like",
+    "bursty-streaming-like",
+    "real-time-like"
+  ],
+  "per_class": {
+    "bulk-transfer-like": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 12.0
+    },
+    "bursty-streaming-like": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 12.0
+    },
+    "real-time-like": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 12.0
+    },
+    "accuracy": 1.0,
+    "macro avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 36.0
+    },
+    "weighted avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 36.0
+    }
+  },
+  "per_configuration": [
+    {
+      "config": "AES-CBC-256-HMAC-SHA256",
+      "class": "bulk-transfer-like",
+      "support": 6,
+      "recall": 1.0
+    },
+    {
+      "config": "AES-CBC-256-HMAC-SHA256",
+      "class": "bursty-streaming-like",
+      "support": 6,
+      "recall": 1.0
+    },
+    {
+      "config": "AES-CBC-256-HMAC-SHA256",
+      "class": "real-time-like",
+      "support": 6,
+      "recall": 1.0
+    },
+    {
+      "config": "AES-GCM-256",
+      "class": "bulk-transfer-like",
+      "support": 6,
+      "recall": 1.0
+    },
+    {
+      "config": "AES-GCM-256",
+      "class": "bursty-streaming-like",
+      "support": 6,
+      "recall": 1.0
+    },
+    {
+      "config": "AES-GCM-256",
+      "class": "real-time-like",
+      "support": 6,
+      "recall": 1.0
+    }
+  ],
+  "split_counts": {
+    "train": {
+      "windows": 120,
+      "groups": 30,
+      "class_counts": {
+        "real-time-like": 40,
+        "bursty-streaming-like": 40,
+        "bulk-transfer-like": 40
+      }
+    },
+    "validation": {
+      "windows": 36,
+      "groups": 9,
+      "class_counts": {
+        "real-time-like": 12,
+        "bursty-streaming-like": 12,
+        "bulk-transfer-like": 12
+      }
+    },
+    "test": {
+      "windows": 36,
+      "groups": 9,
+      "class_counts": {
+        "real-time-like": 12,
+        "bursty-streaming-like": 12,
+        "bulk-transfer-like": 12
+      }
+    }
+  },
+  "split_groups": {
+    "train": [
+      "class-0-run-00",
+      "class-0-run-01",
+      "class-0-run-02",
+      "class-0-run-03",
+      "class-0-run-04",
+      "class-0-run-05",
+      "class-0-run-06",
+      "class-0-run-07",
+      "class-0-run-08",
+      "class-0-run-09",
+      "class-1-run-00",
+      "class-1-run-01",
+      "class-1-run-02",
+      "class-1-run-03",
+      "class-1-run-04",
+      "class-1-run-05",
+      "class-1-run-06",
+      "class-1-run-07",
+      "class-1-run-08",
+      "class-1-run-09",
+      "class-2-run-00",
+      "class-2-run-01",
+      "class-2-run-02",
+      "class-2-run-03",
+      "class-2-run-04",
+      "class-2-run-05",
+      "class-2-run-06",
+      "class-2-run-07",
+      "class-2-run-08",
+      "class-2-run-09"
+    ],
+    "validation": [
+      "class-0-run-10",
+      "class-0-run-11",
+      "class-0-run-12",
+      "class-1-run-10",
+      "class-1-run-11",
+      "class-1-run-12",
+      "class-2-run-10",
+      "class-2-run-11",
+      "class-2-run-12"
+    ],
+    "test": [
+      "class-0-run-13",
+      "class-0-run-14",
+      "class-0-run-15",
+      "class-1-run-13",
+      "class-1-run-14",
+      "class-1-run-15",
+      "class-2-run-13",
+      "class-2-run-14",
+      "class-2-run-15"
+    ]
+  },
+  "threshold_selection": "Validation split only; final test split not used for tuning.",
+  "calibrated": false,
+  "limitations": [
+    "Synthetic workload accuracy does not establish accuracy on real VPN applications.",
+    "Shared generators can make this benchmark easier than field traffic. Grouped runs prevent window leakage but not generator bias.",
+    "A feature-envelope check is a basic safeguard, not reliable out-of-distribution detection."
+  ]
+}

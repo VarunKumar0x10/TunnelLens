@@ -1,0 +1,22 @@
+[project]
+name = "tunnellens"
+version = "0.2.0"
+description = "Local evidence-based IPsec capture analyzer with experimental traffic inference"
+requires-python = ">=3.13,<3.14"
+dependencies = [
+  "fastapi>=0.115,<1",
+  "uvicorn>=0.34,<1",
+  "python-multipart>=0.0.20,<1",
+  "scapy>=2.6,<3",
+  "numpy>=2.2,<3",
+  "scikit-learn>=1.6,<2",
+  "cryptography>=44,<49",
+]
+
+[dependency-groups]
+dev = ["pytest>=8,<10", "httpx>=0.28,<1"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
