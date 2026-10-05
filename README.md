@@ -1,4 +1,4 @@
-# TunnelLens - SIH26160 Tier B experimental MVP
+# TunnelLens - SIH26160
 
 A local IPsec packet-capture analyzer for Windows and Python 3.13. It reads actual metadata, shows selected IKE settings with evidence, applies an explainable baseline, and runs a locally trained Random Forest on encrypted-traffic metadata. Exports include predictions, unknowns and validation limits.
 
